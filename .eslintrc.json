@@ -4,7 +4,8 @@
   "plugins": ["@typescript-eslint", "prettier"],
   "parserOptions": {
     "project": "./tsconfig.json",
-    "createDefaultProgram": true
+    "createDefaultProgram": true,
+    "tsconfigRootDir": "juho"
   },
   "env": {
     // 전역객체를 eslint가 인식하는 구간
