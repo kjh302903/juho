@@ -9,7 +9,7 @@ interface Props {
 const StyleLink = ({ id, text }: Props) => {
   return (
     <Link href={`#${id}`}>
-      <li className="text-white text-md font-bold hover:brightness-95 cursor-pointer">{text}</li>;
+      <li className="text-white text-md font-bold hover:brightness-90 cursor-pointer">{text}</li>;
     </Link>
   );
 };
